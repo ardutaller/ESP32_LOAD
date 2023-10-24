@@ -5,7 +5,7 @@
       {
         "chipFamily": "ESP32",
         "parts": [
-          { "path": "ESPectrum.1.0rc3.bin", "offset": 57344 },
+          { "path": "ESPectrum.1.0rc3.bin", "offset": 460800 },
         ]
       },
       {
