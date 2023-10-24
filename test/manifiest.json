@@ -3,7 +3,7 @@
   "builds": [
     {
       "chipFamily": "ESP32",
-      "improv": false,
+      "improv": true,
       "parts": [
         { "path": "ESPectrum.1.0rc2.bin", "offset": 4096 },
     
