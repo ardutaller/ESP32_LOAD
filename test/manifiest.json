@@ -6,6 +6,6 @@
       "improv": false,
       "parts": [
         { "path": "ESPectrum.1.0rc2.bin", "offset": 4096 },
-    }
+    
   ]
 }
