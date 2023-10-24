@@ -3,9 +3,13 @@
   "builds": [
     {
       "chipFamily": "ESP32",
-      "improv": true,
+      "improv": false,
       "parts": [
-        { "path": "ESPectrum.1.0rc2.bin", "offset": 4096 },
-    
+        { "path": "bootloader_qio_80m.bin", "offset": 4096 },
+        { "path": "BlinkREgular.ino.partitions.bin", "offset": 32768 },
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "BlinkREgular.bin", "offset": 65536 }
+      ]
+    }
   ]
 }
